@@ -177,6 +177,7 @@ nav{
 }
 .row1_img{
     display: flex;
+    justify-content: center;
     align-items: baseline;
 }
 .rest1{
@@ -193,6 +194,7 @@ nav{
 }
 .row2_img{
     display: flex;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: row-reverse;
     margin-top: 10px;
