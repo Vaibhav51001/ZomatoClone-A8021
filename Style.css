@@ -1,5 +1,5 @@
 body{
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', sans-serif;
     background-color: #ebf2ff;
     /* height: 5000px; */
 }
@@ -121,7 +121,7 @@ nav{
 .meal_details{
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #132641;
+    color: #1d3557;
     font-weight: 900;
     text-align: center;
 }
@@ -134,7 +134,7 @@ nav{
     border-radius: 6px 6px 0px 0px;
 }
 .meal h4{
-    color: #132641;
+    color: #1d3557;
     font-weight: 900;
     text-align: left;
     padding-left: 10px;
@@ -147,7 +147,7 @@ nav{
     line-height: 1.5rem;
     padding-left: 10px;
     margin-bottom: 15px;
-    color: #132641;
+    color: #1d3557;
 }
 .txt_col{
     color: #ff512f;
@@ -161,32 +161,23 @@ nav{
     margin-right: 0px;
 }
 .rest_details{
-    /* flex-direction: column;
-    display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    position: relative;
-    width: 100%;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
-.rest_txt{
-    position: absolute;
+.txt_rest_info h1{
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #10294dda;
+    color: #1d3557;
     font-weight: 900;
     text-align: left;
 }
 .rest_img{
-    position: absolute;
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 100%;
 }
 .row1_img{
     display: flex;
     align-items: baseline;
-    margin-top: 2rem;
 }
 .rest1{
     border-radius: 5px;
@@ -202,16 +193,16 @@ nav{
 }
 .row2_img{
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     flex-direction: row-reverse;
     margin-top: 10px;
-    align-items: flex-start;
 }
 .rest3{
     border-radius: 5px;
     margin: 0 5px;
     width: 150px;
     height: 80px;
+    align-items: flex-start;
 }
 .rest4 {
     border-radius: 5px;
@@ -219,11 +210,46 @@ nav{
     width: 200px;
     height: 100px;
 }    
-/* .get_updt{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    position: relative;
+.get_updt{
     width: 100%;
-} */
-
+}
+.txt_updt{
+    padding: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.txt_updt h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #1d3557;
+    font-weight: 900;
+    text-align: left;
+}
+.email_updt{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.e_mail{
+    border: 1px solid #ee89a0;
+    background-color: #fcedf0;
+    color: #1d3557;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+.quote_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.quote{
+    color: white;
+    z-index: 20;
+}
+.quote_img{
+    width: 100%;
+    height: auto;
+    z-index: 19;
+}
