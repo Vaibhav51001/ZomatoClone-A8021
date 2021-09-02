@@ -334,8 +334,8 @@ li{
         font-size:1rem;
     }
     .main_container{
-        max-width: 1140px;
-        margin: 0px 36.4px;
+        max-width: 1140px ;
+        margin: 0px auto;
     }
     .container{
         display: flex;
